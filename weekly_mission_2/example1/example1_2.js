@@ -16,3 +16,4 @@ console.log(explorer)
 
 console.log("Accediendo a las propiedades de un objeto")
 console.log(explorer.name)
+console.log(explorer["namees"])
