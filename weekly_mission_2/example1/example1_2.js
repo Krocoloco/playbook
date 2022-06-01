@@ -18,6 +18,8 @@ console.log("Accediendo a las propiedades de un objeto")
 console.log(explorer.name)
 console.log(explorer["age"])
 
+
+console.log("Ejemplo 3: Objeto con métodos")
 const ajolonauta = {
     name: "Woopa",
     mission: "Node JS",
