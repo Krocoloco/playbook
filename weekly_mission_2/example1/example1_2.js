@@ -23,6 +23,9 @@ const ajolonauta = {
     mission: "Node JS",
     sayHelloToExplorers: function(){
         console.log("Soy el ajolonauta, que onda!")
+    },
+    tellMeMore: function(){
+        return `Ajolonauta: ${this.name}`
     }
 
 }
@@ -30,3 +33,4 @@ const ajolonauta = {
 console.log("Ajolonauta: ")
 console.log(ajolonauta)
 ajolonauta.sayHelloToExplorers()
+console.log(ajolonauta.tellMeMore())
