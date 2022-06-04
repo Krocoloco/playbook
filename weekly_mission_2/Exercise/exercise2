@@ -69,23 +69,25 @@ console.log("Ejercicio 2.2")
 explorers.forEach(explorer => console.log(explorer.stack))
 
 console.log("Ejercicio 2.3")
+//Función map crea una nueva lista segun un elemento a buscar en un objeto
 const explorer_stacks = explorers.map(My_explorer_in_list => My_explorer_in_list.stack)
 
 console.log(explorer_stacks)
 
 console.log("Ejercicio 2.4")
+//Función filter devuelve el objeto que cumple con las parametros de busqueda indicados
 const explorers_with_js = explorers.filter (My_explorer_in_list => My_explorer_in_list.stack.includes("js"))
 
 console.log(explorers_with_js)
 
 console.log("Ejercicio 2.5")
-
+//Función find busca coincidencias según un parametro/variable indicada
 const explorers_from_cdmx = explorers.find (My_explorer_in_list => My_explorer_in_list.city === "CDMX")
 
 console.log(explorers_from_cdmx)
 
 console.log("Ejercicio 2.6")
-
+// Requiere un acumulador, y se le indica la cantidad a sucar a ese acumulador en cada iteración
 const all_exercises = explorers.reduce((acc,My_explorer_in_list) => acc + My_explorer_in_list.exercises_completed, 0)
 
 console.log(all_exercises)
